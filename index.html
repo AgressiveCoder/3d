@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D</title>
+    <title>Курсы по 3D</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
@@ -16,38 +16,38 @@
           <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
               <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                Tima
+                Timur
               </a>
     
               <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                 <li>
                   <a href="#" class="nav-link text-white">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
-                    Home
+                    
+                    Главная
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="nav-link text-white">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
-                    Dashboard
+                  <a href="#soft" class="nav-link text-white">
+                    Знакомство с 3D
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="nav-link text-white">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
-                    Orders
+                  <a href="#texturing" class="nav-link text-white">
+                    
+                    Текстурирование
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="nav-link text-white">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
-                    Products
+                  <a href="#model" class="nav-link text-white">
+                    
+                    Моделирование
+
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="nav-link text-white">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
-                    Customers
+                  <a href="#rendering" class="nav-link text-white">
+                    
+                    Рендеринг
                   </a>
                 </li>
               </ul>
@@ -57,12 +57,12 @@
 
         <div class="container-fluid">
             <div class="row text-center">
-                <div class="col-6 header-text">
+                <div class="col-md-6 header-text">
                     <h1>Курс по изучению Blender</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur iure fugit beatae nihil facilis nisi exercitationem laboriosam laudantium, dolore non eveniet natus dolor, praesentium autem, maxime excepturi in sit! Voluptatem!</p>
-                    <a href="" class="button">♂</a>
+                    <!-- <a href="" class="btn button">текст</a> -->
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <!-- квадрат --><img class="img-fluid" src="img/6.png" alt="">
                     <!-- круг --><img class="img-fluid" src="img/14.png" alt="">
 
@@ -78,38 +78,75 @@
                   <h2>Виды 3D обучения</h2>
               </div>
               <div class="row text-center">
-                  <div class="col-3">Знакомство с 3D</div>
-                  <div class="col-3">Моделирование</div>
-                  <div class="col-3">Детализация и текстурирование</div>
-                  <div class="col-3">Рендеринг</div>
+                  <div class="col-md-3">Знакомство с 3D</div>
+                  <div class="col-md-3">Моделирование</div>
+                  <div class="col-md-3">Детализация и текстурирование</div>
+                  <div class="col-md-3">Рендеринг</div>
               </div>
           </div>
       </section>
 
-      <section class="soft">
+      <section id="soft" class="soft">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6 text-area">
               <h2 class="text-center">Title</h2>
               <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit mollitia illo consequuntur cumque voluptatibus facere, est, expedita similique dicta maxime aut. Perspiciatis natus quasi, accusamus quidem ullam nobis debitis.</span>
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-3"></div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
+              <div class="row">
+                <div class="col-12 text-center">
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#Soft">
+                    Подробнее
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="Soft" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-center" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="row">
+
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non sapiente unde maxime adipisci ea commodi repellendus esse dignissimos assumenda, dolore veniam nobis dolorem at omnis eum repudiandae consequuntur error. Eveniet.</p>
+                          
+                              <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="img/modeling/4.jpg" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/modeling/2.jpg" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/modeling/1.jpg" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-3"></div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -120,7 +157,7 @@
         </div>
       </section>
 
-      <section class="model">
+      <section id="model" class="model">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6">
@@ -129,25 +166,39 @@
             <div class="col-md-6 text-area">
               <h2 class="text-center">Title</h2>
               <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit mollitia illo consequuntur cumque voluptatibus facere, est, expedita similique dicta maxime aut. Perspiciatis natus quasi, accusamus quidem ullam nobis debitis.</span>
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-3"></div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
+              <div class="col-12 text-center">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#Model">
+                  Подробнее
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Model" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-12">
+                              <img src="img/modeling.gif" class="d-block w-100" alt="">
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, eveniet blanditiis ea, sed sit at explicabo assumenda autem, commodi pariatur temporibus sint. Libero, architecto unde perspiciatis qui aliquam voluptate iste.</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-3"></div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                </div>
+
               </div>
             </div>
 
@@ -155,31 +206,64 @@
         </div>
       </section>
 
-      <section class="texturing">
+      <section id="texturing" class="texturing">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6 text-area">
               <h2 class="text-center">Title</h2>
               <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit mollitia illo consequuntur cumque voluptatibus facere, est, expedita similique dicta maxime aut. Perspiciatis natus quasi, accusamus quidem ullam nobis debitis.</span>
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-3"></div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
+              <div class="col-12 text-center">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#Texture">
+                  Подробнее
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Texture" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-12">
+                              <p>lorem</p>
+                              <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="4000">
+                                    <img src="img/texturing/shoe.gif" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/texturing/shoe.jpg" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3 " data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-3"></div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                </div>
+
               </div>
             </div>
             <div class="col-md-6">
@@ -189,7 +273,7 @@
         </div>
       </section>
 
-      <section class="rendering">
+      <section id="rendering" class="rendering">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6">
@@ -198,25 +282,55 @@
             <div class="col-md-6 text-area">
               <h2 class="text-center">Title</h2>
               <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit mollitia illo consequuntur cumque voluptatibus facere, est, expedita similique dicta maxime aut. Perspiciatis natus quasi, accusamus quidem ullam nobis debitis.</span>
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-3"></div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
+              <div class="col-12 text-center">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#Render">
+                  Подробнее
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Render" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quidem fuga accusamus laborum? Praesentium, adipisci, fugit quis sint nemo voluptate provident sunt quo commodi, sed rem officia recusandae quasi minus?</p>
+                        
+                        <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                              <img src="img/gallery/render.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="img/gallery/render-wire.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="img/gallery/mix.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-3"></div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                  <div class="col-3">
-                    <a href="" class="btn btn-white">button</a>
-                  </div>
-                </div>
+
               </div>
             </div>
 
@@ -231,13 +345,10 @@
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
-                    <img src="img/gallery/render.png" class="d-block w-100" alt="...">
+                    <img src="img/works/2.gif" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/gallery/render.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/gallery/render wire.png" class="d-block w-100" alt="...">
+                    <img src="img/works/1.gif" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
